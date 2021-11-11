@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "serverless": "^2.66.0",
+    "serverless-offline": "^8.2.0"
+  },
+  "name": "stefanini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sls:offline": "sls offline",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.12"
+  }
+}
